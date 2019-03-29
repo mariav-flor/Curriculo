@@ -1,0 +1,85 @@
+/* O asterisco funciona para reescrever as propriedades dos navegadores */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+        #quem {
+            padding-top: 2%;
+            background-image: url(../assets/wall.jpg);
+        }
+        #quem-title {
+            text-align: justify;
+            margin-left: 9%;
+            margin-top: 1em;
+            font-weight: bold;
+        }
+        .progress{
+            height: 1.5rem;
+            width: 80%;
+        }
+        .list-group-flush{
+            width: 80%;
+        }
+        #educação {
+            background-color: white;
+            padding-top: 2%;
+        }
+        #habilidades {
+            padding-top: 2%;
+            margin-bottom: 1rem;
+        }
+        .legenda {
+            font-weight: 300;
+            text-decoration: none;
+            margin-top: 1rem;
+        }
+        .btn-link{
+            margin: -1rem;
+        }
+        .subtitle {
+            padding-top: 0.8%;
+            font-weight: bold;
+        }
+        #exp {
+            padding-top: 2%;
+        }
+        .foto {
+            background-color: silver;
+            width: 70%;
+            height: 30%;
+            margin-left: 15%;
+        }
+        hr {
+            margin-top: -1.5%;
+        }
+        .lista {
+            margin-left: 5%;
+        }
+
+        .icons {
+            height: 4%;
+            width: 20%;
+            margin-left: 6.5%;
+        }
+
+        #icons-div {
+            display: block;
+            padding: 5%;
+        }
+        #quem-description {
+            margin-left: 9%;
+            margin-top: 5%;
+            margin-right: 13%;
+            text-align: justify;
+            width: 80%;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        .card-header {
+           background-color: blueviolet;
+        }        
+        .footer {
+            background-color: silver;
+        }

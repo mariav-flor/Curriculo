@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="src/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <title> Currículo Maria Flor </title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: hsl(323, 58%, 60%)">
+            <a class="navbar-brand text-light"> Maria Flor </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Subnavegação -->
+
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+
+                <!-- Itens do menu -->
+
+                <ul class="navbar-nav mr-auto">
+
+                    <!-- Cada item do menu -->
+
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item text-light">
+                            <a class="nav-link active" href="#educação"> Educação</a>
+                        </li>
+                        <li class="nav-item text-light">
+                            <a class="nav-link" href="#currículo"> Habilidades</a>
+                        </li>
+                        <li class="nav-item text-light">
+                            <a class="nav-link" href="#exp"> Experiência </a>
+                        </li>
+                        <li class="nav-item text-light">
+                            <a class="nav-link" href="#educação"> Portfólio </a>
+                        </li>
+                    </ul>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3" id="quem">
+                <img src="src/assets/fotominha.jpg" alt="imagem de Maria Vitória Flor" class="img-thumbnail foto"></img>
+
+                <h5 class="display-5" id="quem-title"> Quem sou eu </h5>
+                <p id="quem-description"> Graduada em Comunicação com um pezinho na Tecnologia.
+                    Lorem ipsum Lorem ipsum dolor sit amet. </p>
+                <div id="icons-div">
+                    <img src="src/assets/facebook.svg" alt="ícone do facebook" class="icons">
+                    <img src="src/assets/github.svg" alt="ícone do github" class="icons">
+                    <img src="src/assets/linkedin.svg" alt="ícone do linkedin" class="icons">
+                </div>
+
+            </div>
+
+            <section class="col-sm-9" id="educação">
+
+
+                <h5 class="display-5 p-2 mb-2 bg-info"> Eduçação </h5>
+
+                <p class="subtitle"> Principais cursos </p>
+                <hr>
+
+                <ul class="lista">
+
+                    <li>
+                        Graduação em Comunicação Organizacional
+                        pela Universidade de Brasília.
+                    </li>
+                    <li>
+                        Curso de Métricas para Comunicação Digital.
+                    </li>
+                    <li>
+                        Curso de Análise de Redes Sociais.
+                    </li>
+                    <li>
+                        Curso online de front-end {reprograma}.
+                    </li>
+                </ul>
+
+                <div id="habilidades">
+                    <h5 class="display-5 p-2 mb-2 bg-info"> Habilidades </h5>
+
+                    <p class="subtitle"> Principais habilidades </p>
+                    <hr>
+
+                    <p class="legenda"> Python </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar"
+                            style="width: 40%; background-color: hsl(323, 58%, 60%)" aria-valuenow="40"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p class="legenda"> JavaScript </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%; background-color: #d4922d"
+                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p class="legenda"> HTML </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar"
+                            style="width: 55%; background-color: hsl(323, 58%, 60%)" aria-valuenow="55"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p class="legenda"> CSS </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%; background-color: #d4922d"
+                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+
+                <div id="exp">
+
+                    <h5 class="display-5 p-2 mb-2 bg-info"> Experiência </h5>
+
+                    <p class="subtitle"> Lugares por onde passei </p>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"> Tribunal de Contas da União</li>
+                        <li class="list-group-item"> Proativa Comunicação Integrada</li>
+                        <li class="list-group-item"> Agência Evoluta </li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <nav id="nav-footer" class="navbar navbar-light bg-light">
+            <a id="nav-footer-link" class="nav-link" href="https://www.linkedin.com/in/barbara-aguilar/"
+                target="_blank"><i class="fas fa-code"></i>
+                <p></p>
+            </a>
+        </nav>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
